@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nemesis Corporation | Holdings, Ventures, Media, Technologies</title>
+  <meta name="description" content="Nemesis Corporation (NEM) is a multifaceted conglomerate driving transformative growth through four divisions: Holdings, Ventures, Media, and Technologies. Founded and led by John Lloyd P. Lacumba.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:title" content="Nemesis Corporation | Holdings, Ventures, Media, Technologies">
+  <meta property="og:description" content="A multifaceted conglomerate driving transformative growth across diverse sectors.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://nemesis-corporation.vercel.app/">
+  <meta property="og:url" content="https://nemesis-corporation.vercel.app/">
+  <meta property="og:site_name" content="Nemesis Corporation">
+  <meta property="og:image" content="https://nemesis-corporation.vercel.app/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Nemesis Corporation. Four divisions. One ecosystem of growth.">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>
+    /* Splash runs once per browser session on the home page. Add ?splash to the address to replay it. */
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      var seen = false;
+      try { seen = !!sessionStorage.getItem('nem-splash') && !/[?&]splash/.test(location.search); } catch (e) {}
+      d.classList.add(seen ? 'no-splash' : 'splashing');
+    })();
+  </script>
+
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Nemesis Corporation", "alternateName": "NEM", "description": "A multifaceted conglomerate driving transformative growth through four divisions: Holdings, Ventures, Media, and Technologies.", "founder": {"@type": "Person", "name": "John Lloyd P. Lacumba"}, "address": {"@type": "PostalAddress", "streetAddress": "70 Urbano", "addressLocality": "Quezon City", "postalCode": "1107", "addressRegion": "Metro Manila", "addressCountry": "PH"}, "subOrganization": [{"@type": "Organization", "name": "NEM Holdings"}, {"@type": "Organization", "name": "NEM Ventures"}, {"@type": "Organization", "name": "NEM Media"}, {"@type": "Organization", "name": "NEM Technologies"}], "url": "https://nemesis-corporation.vercel.app/", "logo": "https://nemesis-corporation.vercel.app/assets/nemesis-corporation-logo.png"}</script>
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 420'%3E%3Crect width='200' height='200' fill='%23D0A03C'/%3E%3Cpath d='M220 0A200 200 0 0 1 420 200H220Z' fill='%231FA58A'/%3E%3Ccircle cx='100' cy='320' r='100' fill='%23E5546A'/%3E%3Cpath d='M220 420H420V220Z' fill='%234766FF'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <noscript><style>.nav-toggle{display:none}.site-nav{display:block!important;position:static!important}.has-menu:hover .mega,.has-menu:focus-within .mega{opacity:1;visibility:visible;transform:translate(-50%,0)}</style></noscript>
+</head>
+<body>
+  <!-- Splash screen: just the logo -->
+  <div class="splash" id="splash" aria-hidden="true">
+    <svg class="splash-mark" viewBox="0 0 420 420">
+      <rect class="s-shape s1" width="200" height="200"/>
+      <path class="s-shape s2" d="M220 0A200 200 0 0 1 420 200H220Z"/>
+      <circle class="s-shape s3" cx="100" cy="320" r="100"/>
+      <path class="s-shape s4" d="M220 420H420V220Z"/>
+    </svg>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Shared shapes: one glyph per division, plus the combined NEM mark -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="g-holdings" viewBox="0 0 200 200"><rect width="200" height="200"/></symbol>
+      <symbol id="g-ventures" viewBox="0 0 200 200"><path d="M0 0A200 200 0 0 1 200 200H0Z"/></symbol>
+      <symbol id="g-media" viewBox="0 0 200 200"><circle cx="100" cy="100" r="100"/></symbol>
+      <symbol id="g-technologies" viewBox="0 0 200 200"><path d="M0 200H200V0Z"/></symbol>
+      <symbol id="nem-mark" viewBox="0 0 420 420">
+        <rect width="200" height="200" style="fill:var(--holdings)"/>
+        <path d="M220 0A200 200 0 0 1 420 200H220Z" style="fill:var(--ventures)"/>
+        <circle cx="100" cy="320" r="100" style="fill:var(--media)"/>
+        <path d="M220 420H420V220Z" style="fill:var(--technologies)"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Nemesis Corporation, back to top">
+        <svg class="brand-mark" viewBox="0 0 420 420" aria-hidden="true"><use href="#nem-mark"/></svg>
+        <span class="brand-name"><span class="bn-full">Nemesis Corporation</span><span class="bn-short" aria-hidden="true">NEM</span></span>
+      </a>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary" data-open="false">
+        <ul>
+          <li class="has-menu">
+            <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu-about" data-section="about">About</button>
+            <div class="mega" id="menu-about">
+              <div class="mega-inner">
+                <div class="mega-lead">
+                  <p class="mega-label">About</p>
+                  <p class="mega-note">A forward-thinking, multifaceted conglomerate driving transformative growth.</p>
+                </div>
+                <div class="mega-links">
+                  <p class="mega-label">Explore</p>
+                  <ul>
+                    <li><a href="about.html"><span>About us<small>Nemesis Corporation and its four divisions</small></span></a></li>
+                    <li><a href="#about"><span>Executive summary<small>Who we are</small></span></a></li>
+                    <li><a href="#vision"><span>Our vision<small>Sustainable growth and industry leadership</small></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="has-menu">
+            <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu-divisions" data-section="divisions">Divisions</button>
+            <div class="mega" id="menu-divisions">
+              <div class="mega-inner">
+                <div class="mega-lead">
+                  <p class="mega-label">Divisions</p>
+                  <p class="mega-note">Four divisions, one ecosystem of growth.</p>
+                </div>
+                <div class="mega-links">
+                  <p class="mega-label">Explore</p>
+                  <ul>
+                    <li><a href="#divisions"><svg class="glyph-sm" viewBox="0 0 420 420" aria-hidden="true"><use href="#nem-mark"/></svg><span>Overview<small>All four divisions</small></span></a></li>
+                    <li><a href="holdings.html"><svg class="glyph-sm" viewBox="0 0 200 200" aria-hidden="true" style="fill:#D0A03C"><use href="#g-holdings"/></svg><span>NEM Holdings<small>The financial backbone</small></span></a></li>
+                    <li><a href="ventures.html"><svg class="glyph-sm" viewBox="0 0 200 200" aria-hidden="true" style="fill:#1FA58A"><use href="#g-ventures"/></svg><span>NEM Ventures<small>The entrepreneurial engine</small></span></a></li>
+                    <li><a href="media.html"><svg class="glyph-sm" viewBox="0 0 200 200" aria-hidden="true" style="fill:#E5546A"><use href="#g-media"/></svg><span>NEM Media<small>The creative and communication arm</small></span></a></li>
+                    <li><a href="technologies.html"><svg class="glyph-sm" viewBox="0 0 200 200" aria-hidden="true" style="fill:#4766FF"><use href="#g-technologies"/></svg><span>NEM Technologies<small>The frontier of technology</small></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="has-menu">
+            <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu-projects" data-section="projects">Projects</button>
+            <div class="mega" id="menu-projects">
+              <div class="mega-inner">
+                <div class="mega-lead">
+                  <p class="mega-label">Projects</p>
+                  <p class="mega-note">The areas of work that carry each division's mandate.</p>
+                </div>
+                <div class="mega-links">
+                  <p class="mega-label">Explore</p>
+                  <ul>
+                    <li><a href="projects.html"><svg class="glyph-sm" viewBox="0 0 420 420" aria-hidden="true"><use href="#nem-mark"/></svg><span>All projects<small>Every initiative, by division</small></span></a></li>
+                    <li><a href="projects.html#holdings"><svg class="glyph-sm" viewBox="0 0 200 200" aria-hidden="true" style="fill:#D0A03C"><use href="#g-holdings"/></svg><span>Holdings projects<small>Asset management · Investments · Resources</small></span></a></li>
+                    <li><a href="projects.html#ventures"><svg class="glyph-sm" viewBox="0 0 200 200" aria-hidden="true" style="fill:#1FA58A"><use href="#g-ventures"/></svg><span>Ventures projects<small>Partnerships · Venture building · Co-creation</small></span></a></li>
+                    <li><a href="projects.html#media"><svg class="glyph-sm" viewBox="0 0 200 200" aria-hidden="true" style="fill:#E5546A"><use href="#g-media"/></svg><span>Media projects<small>Communications · Marketing · Public relations</small></span></a></li>
+                    <li><a href="projects.html#technologies"><svg class="glyph-sm" viewBox="0 0 200 200" aria-hidden="true" style="fill:#4766FF"><use href="#g-technologies"/></svg><span>Technologies projects<small>Innovation · Software and data · Transformation</small></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="has-menu">
+            <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu-leadership" data-section="leadership">Leadership</button>
+            <div class="mega" id="menu-leadership">
+              <div class="mega-inner">
+                <div class="mega-lead">
+                  <p class="mega-label">Leadership</p>
+                  <p class="mega-note">Direction for Nemesis Corporation and its four divisions.</p>
+                </div>
+                <div class="mega-links">
+                  <p class="mega-label">Explore</p>
+                  <ul>
+                    <li><a href="#leadership"><span>Founder and CEO<small>John Lloyd P. Lacumba</small></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="has-menu">
+            <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu-outlook" data-section="outlook">Outlook</button>
+            <div class="mega" id="menu-outlook">
+              <div class="mega-inner">
+                <div class="mega-lead">
+                  <p class="mega-label">Outlook</p>
+                  <p class="mega-note">Continuous innovation. Sustainable growth.</p>
+                </div>
+                <div class="mega-links">
+                  <p class="mega-label">Explore</p>
+                  <ul>
+                    <li><a href="#outlook"><span>Future outlook<small>Where we are headed</small></span></a></li>
+                    <li><a href="#synergy"><span>Cross-divisional synergy<small>Agility in rapidly changing markets</small></span></a></li>
+                    <li><a href="#value"><span>Lasting value<small>Advancements that redefine the landscape</small></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="header-cta" href="community.html">Community</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Menu</span>
+          <span class="bars" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <h1 id="hero-title">Four divisions. One ecosystem of growth.</h1>
+          <p class="lead">A forward-thinking, multifaceted conglomerate dedicated to driving transformative growth across diverse sectors.</p>
+          <div class="actions">
+            <a class="btn" href="#divisions">Explore the divisions</a>
+            <a class="text-link" href="#leadership">Meet the founder</a>
+          </div>
+        </div>
+
+        <div class="emblem-wrap" id="emblem-wrap">
+          <svg class="emblem" viewBox="0 0 420 420" role="group" aria-label="The four NEM divisions">
+            <a class="tile tile-holdings" href="holdings.html" data-division="holdings" aria-label="NEM Holdings">
+              <rect class="shape" width="200" height="200"/>
+            </a>
+            <a class="tile tile-ventures" href="ventures.html" data-division="ventures" aria-label="NEM Ventures">
+              <path class="shape" d="M220 0A200 200 0 0 1 420 200H220Z"/>
+            </a>
+            <a class="tile tile-media" href="media.html" data-division="media" aria-label="NEM Media">
+              <circle class="shape" cx="100" cy="320" r="100"/>
+            </a>
+            <a class="tile tile-technologies" href="technologies.html" data-division="technologies" aria-label="NEM Technologies">
+              <path class="shape" d="M220 420H420V220Z"/>
+            </a>
+          </svg>
+          <p class="emblem-caption" id="emblem-caption" aria-live="polite">
+            <span class="swatch" aria-hidden="true"></span>
+            <span class="cap-text">
+              <strong class="cap-name">NEM</strong>
+              <span class="cap-line">Point to a tile to preview a division. Select it to open the profile.</span>
+            </span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="wrap split about-grid">
+        <h2 id="about-title">Executive summary</h2>
+        <div class="about-body">
+          <p class="statement">A synergistic ecosystem of four core divisions that identifies market opportunities, nurtures innovation, and scales impactful solutions globally.</p>
+          <p id="vision">Our overarching vision is centered on sustainable growth and industry leadership through strategic infrastructure and creative vision.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIVISIONS -->
+    <section class="section divisions" id="divisions" aria-labelledby="divisions-title">
+      <div class="wrap split">
+        <div class="split-head">
+          <h2 id="divisions-title">Corporate divisions</h2>
+          <p>Each division has a distinct mandate. Together they form the ecosystem behind Nemesis Corporation's growth.</p>
+          <p class="hint">Point to a division to see its details.</p>
+        </div>
+        <ol class="division-list">
+          <li class="division division--holdings" id="holdings">
+            <a class="division-row" href="holdings.html" aria-label="Explore NEM Holdings">
+              <svg class="glyph" viewBox="0 0 200 200" aria-hidden="true"><use href="#g-holdings"/></svg>
+              <div class="division-text">
+                <h3>NEM Holdings</h3>
+                <p class="division-role">The financial backbone</p>
+                <div class="division-more">
+                  <div class="division-more-inner">
+                    <p class="division-desc">NEM Holdings serves as the fundamental financial backbone of the entire group, providing the stability and capital necessary for broad-scale operations. It oversees the strategic management of the organization's fiscal health and long-term sustainability.</p>
+                    <dl class="division-facts">
+                      <div><dt>Core focus</dt><dd>Managing corporate assets, investments, and resource allocation.</dd></div>
+                      <div><dt>Key objective</dt><dd>Ensure sustainable financial growth and secure high-yield investments to support the other divisions.</dd></div>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="division division--ventures" id="ventures">
+            <a class="division-row" href="ventures.html" aria-label="Explore NEM Ventures">
+              <svg class="glyph" viewBox="0 0 200 200" aria-hidden="true"><use href="#g-ventures"/></svg>
+              <div class="division-text">
+                <h3>NEM Ventures</h3>
+                <p class="division-role">The entrepreneurial engine</p>
+                <div class="division-more">
+                  <div class="division-more-inner">
+                    <p class="division-desc">NEM Ventures is the entrepreneurial engine of the group, explicitly focused on building and partnering with diverse businesses to foster a culture of innovation and shared success.</p>
+                    <dl class="division-facts">
+                      <div><dt>Core focus</dt><dd>Strategic partnerships, venture building, and co-creation.</dd></div>
+                      <div><dt>Key objective</dt><dd>Forge strong alliances, support emerging enterprises, and co-create innovative business models that drive mutual growth and market expansion.</dd></div>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="division division--media" id="media">
+            <a class="division-row" href="media.html" aria-label="Explore NEM Media">
+              <svg class="glyph" viewBox="0 0 200 200" aria-hidden="true"><use href="#g-media"/></svg>
+              <div class="division-text">
+                <h3>NEM Media</h3>
+                <p class="division-role">The creative and communication arm</p>
+                <div class="division-more">
+                  <div class="division-more-inner">
+                    <p class="division-desc">NEM Media represents the creative and communication arm of the company, specializing in crafting compelling narratives and managing the group's external presence in a digital-first world.</p>
+                    <dl class="division-facts">
+                      <div><dt>Core focus</dt><dd>Creative communications, digital marketing, content creation, and public relations.</dd></div>
+                      <div><dt>Key objective</dt><dd>Elevate brand presence, facilitate meaningful audience connections, and manage the public narrative of Nemesis Corporation and its partners.</dd></div>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="division division--technologies" id="technologies">
+            <a class="division-row" href="technologies.html" aria-label="Explore NEM Technologies">
+              <svg class="glyph" viewBox="0 0 200 200" aria-hidden="true"><use href="#g-technologies"/></svg>
+              <div class="division-text">
+                <h3>NEM Technologies</h3>
+                <p class="division-role">The frontier of technology</p>
+                <div class="division-more">
+                  <div class="division-more-inner">
+                    <p class="division-desc">NEM Technologies focuses on the frontier of technological advancement, ensuring the group remains competitive through digital transformation and proprietary technical solutions.</p>
+                    <dl class="division-facts">
+                      <div><dt>Core focus</dt><dd>Technological innovation, software development, data solutions, and digital transformation.</dd></div>
+                      <div><dt>Key objective</dt><dd>Develop cutting-edge solutions to solve complex industry problems, streamline operations, and drive digital advancement for the group.</dd></div>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- LEADERSHIP -->
+    <section class="section leadership" id="leadership" aria-labelledby="leadership-title">
+      <div class="wrap leader-grid">
+        <figure class="portrait">
+          <div class="portrait-frame">
+            <svg class="portrait-mark" viewBox="0 0 420 420" aria-hidden="true"><use href="#nem-mark"/></svg>
+            <span class="portrait-initials" aria-hidden="true">JL</span>
+            <!-- To use a real photo, save it as assets/john-lloyd-lacumba.jpg (4:5 ratio works best).
+                 If the file is missing, the monogram above is shown instead. -->
+            <img src="assets/john-lloyd-lacumba.jpg" alt="Portrait of John Lloyd P. Lacumba, Founder and CEO of Nemesis Corporation" width="720" height="900" loading="lazy">
+          </div>
+        </figure>
+
+        <div class="leader-copy">
+          <h2 id="leadership-title">Leadership</h2>
+          <h3 class="leader-name">John Lloyd P. Lacumba</h3>
+          <p class="leader-title">Founder and CEO</p>
+          <p>As Founder and CEO, John Lloyd P. Lacumba sets the direction for Nemesis Corporation and its four divisions: Holdings, Ventures, Media, and Technologies. The focus is sustainable growth, strong partnerships, and long-term industry leadership.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUTLOOK -->
+    <section class="section outlook" id="outlook" aria-labelledby="outlook-title">
+      <div class="wrap outlook-grid">
+        <h2 id="outlook-title">Continuous innovation. Sustainable growth.</h2>
+        <div class="outlook-body">
+          <p id="synergy">By maintaining agility in rapidly changing markets and fostering deep cross-divisional synergy, Nemesis Corporation is positioned for long-term industry leadership.</p>
+          <p id="value">Our focus remains on creating lasting value and spearheading advancements that redefine the business landscape.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FIND US -->
+    <section class="section visit" id="visit" aria-labelledby="visit-title">
+      <div class="wrap split">
+        <div class="split-head">
+          <h2 id="visit-title">Find us</h2>
+          <p>Our corporate office is in Quezon City.</p>
+          <address class="visit-address">Nemesis Corporation<br>70 Urbano<br>Quezon City, 1107 Metro Manila<br>Philippines</address>
+          <div class="actions">
+            <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=70+Urbano%2C+Quezon+City%2C+1107+Metro+Manila" target="_blank" rel="noopener">Get directions</a>
+            <a class="text-link" href="https://share.google/8F2sFenYW37uZAi2X" target="_blank" rel="noopener">Open in Google Maps</a>
+          </div>
+        </div>
+        <div class="map-frame">
+          <iframe title="Map showing the Nemesis Corporation office at 70 Urbano, Quezon City" src="https://www.google.com/maps?q=NEM+Corporation%2C+70+Urbano%2C+Quezon+City%2C+1107+Metro+Manila&z=17&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="#top" aria-label="Nemesis Corporation, back to top">
+        <svg class="brand-mark" viewBox="0 0 420 420" aria-hidden="true"><use href="#nem-mark"/></svg>
+        <span class="brand-name"><span class="bn-full">Nemesis Corporation</span><span class="bn-short" aria-hidden="true">NEM</span></span>
+      </a>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="holdings.html">Holdings</a></li>
+          <li><a href="ventures.html">Ventures</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="technologies.html">Technologies</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="community.html">Community</a></li>
+        </ul>
+      </nav>
+      <p class="legal">&copy; <span id="year">2026</span> Nemesis Corporation. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
