@@ -421,6 +421,17 @@ html.splashing, html.div-splashing { overflow: hidden; }
 @keyframes away { to { opacity: 0; transform: translate(var(--ox), var(--oy)) scale(.55); } }
 @keyframes pick { to { transform: translate(var(--tx), var(--ty)) scale(1.4); } }
 
+/* Name under the logo: Nemesis Corporation on the home splash, the division's name on division splashes */
+.splash-inner, .dsplash-inner { display: grid; justify-items: center; gap: clamp(1.4rem, 4vmin, 2.2rem); }
+.splash-text, .dsplash-text {
+  margin: 0; text-align: center;
+  font-size: clamp(1.15rem, 1rem + .9vw, 1.6rem);
+  font-weight: 500; letter-spacing: .06em; line-height: 1;
+}
+.splash-text  { animation: csplash-in .9s var(--ease) 1s backwards; }
+.dsplash-text { animation: csplash-in .9s var(--ease) 1.8s backwards; }
+.splash.is-leaving .splash-text, .dsplash.is-leaving .dsplash-text { opacity: 0; transition: opacity .35s; }
+
 /* ==========================================================================
    Division pages
    ========================================================================== */
@@ -706,5 +717,11 @@ html.comm-splashing { overflow: hidden; }
 
 @media (prefers-reduced-motion: reduce) {
   .csplash { transition: none; }
-  .csplash-text { animation: none; }
+  .csplash-text, .splash-text, .dsplash-text { animation: none; }
 }
+
+/* Division pages: the name at the left of the header is the division's own */
+.brand-name--division { font-size: .86rem; letter-spacing: .01em; white-space: nowrap; }
+@media (max-width: 419px) { .header-actions { gap: .4rem; } .header-cta { padding: .45rem .85rem; font-size: .88rem; } }
+@media (min-width: 420px) { .brand-name--division { font-size: 1rem; } }
+@media (min-width: 1120px) { .brand-name--division { font-size: 1.12rem; } }

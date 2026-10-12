@@ -256,8 +256,8 @@
   }
 
   window.NEM_INIT = init;   // used by the single-file preview; harmless on a normal site
-  runSplash({ selector: '#splash', activeClass: 'splashing', showMs: 2000, remember: 'nem-splash' });
-  runSplash({ selector: '#dsplash', activeClass: 'div-splashing', showMs: 2700, remember: null });
+  runSplash({ selector: '#splash', activeClass: 'splashing', showMs: 2600, remember: 'nem-splash' });
+  runSplash({ selector: '#dsplash', activeClass: 'div-splashing', showMs: 3500, remember: null });
   runSplash({ selector: '#csplash', activeClass: 'comm-splashing', showMs: 2300, remember: null });
   init();
 })();
