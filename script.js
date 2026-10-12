@@ -8,9 +8,9 @@
   const isDesktop = () => window.matchMedia('(min-width: 861px)').matches;
 
   const DIVISIONS = {
-    holdings: { name: 'NEM Holdings', line: 'The financial backbone of the group.' },
+    holdings: { name: 'NEM Holdings', line: 'Finance and investments for the group.' },
     ventures: { name: 'NEM Ventures', line: 'Partnerships, venture building, and co-creation.' },
-    media: { name: 'NEM Media', line: 'Creative communications and public narrative.' },
+    media: { name: 'NEM Media', line: 'Communications, content, and public relations.' },
     technologies: { name: 'NEM Technologies', line: 'Technology and digital transformation for the group.' }
   };
 

@@ -33,3 +33,9 @@ If Vercel gives you a different address (the name can be taken), or you later co
   button on your posts.
 - Optional: add the site in Google Search Console and submit `/sitemap.xml`.
 - Portrait: save the founder photo as `assets/john-lloyd-lacumba.jpg` (4:5 ratio) and redeploy.
+
+## Notes
+- `brand-assets/` holds the Google Maps cover photo (3840 x 2160). It is not published with the site.
+- The grain is only inside the colored background glows (heroes, leadership card, outlook, find us, closing band).
+  It is the "Background grain" block at the end of `style.css`. Change the `opacity` values there to make it
+  stronger or softer, or delete a selector to remove it from one section.
